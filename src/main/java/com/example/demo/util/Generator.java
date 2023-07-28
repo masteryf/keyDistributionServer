@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.util;
 
 import java.security.SecureRandom;
 import java.util.Random;

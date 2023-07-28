@@ -1,0 +1,10 @@
+server:
+  port: 35873
+spring:
+  datasource:
+    username: yf
+    password: Nvidiafucky0u!
+    # serverTimezone=UTC 解决时区问题
+    url: jdbc:mysql://62.234.54.176:3306/rsamodel?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    # mysql8 以上使用 cj
+    driver-class-name: com.mysql.cj.jdbc.Driver
