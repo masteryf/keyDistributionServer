@@ -18,7 +18,7 @@ public class jdbc {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             //里面内容依次是："jdbc:mysql://主机名:端口号/数据库名","用户名","登录密码
-            connection = DriverManager.getConnection("jdbc:mysql://62.234.54.176:3306/rsamodel", "yf", "Nvidiafucky0u!");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/rsamodel", "", "");
             return connection;
         } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
